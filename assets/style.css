@@ -1,0 +1,112 @@
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+
+}
+body::-webkit-scrollbar-thumb{
+    background: #A5C9CA;
+    border-radius: 5px;
+}
+
+div.row {
+    margin-right: 0px;
+}
+  
+div.container-fluid {
+    padding-right: 0px;
+}
+
+header{
+    background-image: url(./chef.jpg);
+    background-size: cover;
+    height: 550px;
+    position: relative;
+}
+
+#texto-uno{
+ 
+    margin: 15px;
+    border-radius: 4px 94px 0px 75px;
+    -moz-border-radius: 4px 94px 0px 75px;
+    -webkit-border-radius: 4px 94px 0px 75px;
+    border: 0px solid #000000;
+    background-color: #ffffff;
+    opacity: 0.6;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    top:50%;
+    transform:  translateY(-50%);
+    
+}
+#herader-contact{
+    
+    -webkit-box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
+    box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
+    border-radius: 82px 82px 82px 82px;
+    height: 80px;
+    background-color: #FFF1BC;
+    opacity: 0.9;
+    top:70%;
+    transform:  translateY(-40%);
+    position: absolute;
+
+}
+
+.logo{
+    width: 100px;
+    opacity: 0.9;
+    border-radius: 82px 82px 82px 82px;
+}
+
+#catalago{
+    background-color: #E7F6F2;
+    padding-left: 2%;
+    text-align: justify;
+    
+}
+.card-body{
+    background-color: #FFF1BC;
+    
+}
+#carta{
+    -webkit-box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
+box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
+
+}
+.card-text{
+    font-family: Helvetica, Sans-Serif;
+}
+
+
+
+#contenido{
+    background-color: #E1FFEE;
+    font-style: italic;
+}
+#about{
+    background-color: #A5C9CA;
+    
+
+}
+.carousel-item{
+    /* min-height: auto; */
+  height: 1500px;
+}
+
+#acercade{
+    
+    text-align: justify;
+    color: #2C3333 ;
+    
+    
+}
+#acercade img{
+    border-radius: 82px 82px 82px 82px; 
+    -webkit-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
+    box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
+}
