@@ -87,21 +87,20 @@ box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
     
 
 }
-.carousel-item{
-    /* min-height: auto; */
-  height: 1500px;
+#carusel{
+    display: flex;
+    max-height: 50%
+}
+#carusel{
+    display: flex;
 }
 
-#acercade{
-    
-    text-align: justify;
-    color: #2C3333 ;
-    
-    
+@media(min-width:320px) and (max-widht:762px){
+    #carusel{
+        flex-direction: column;
+        text-justify: distribute;
+
+    }
+
 }
-#acercade img{
-    border-radius: 82px 82px 82px 82px; 
-    -webkit-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
-    box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
-}
+
