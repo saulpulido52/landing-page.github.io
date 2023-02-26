@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=PT+Serif:ital@1&family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&family=PT+Serif:ital@1&family=Rajdhani:wght@600&display=swap');
 
 body::-webkit-scrollbar{
     width: 10px;
@@ -19,36 +20,6 @@ div.container-fluid {
 
 
 
-#texto-uno{
- 
-    margin: 15px;
-    border-radius: 4px 94px 0px 75px;
-    -moz-border-radius: 4px 94px 0px 75px;
-    -webkit-border-radius: 4px 94px 0px 75px;
-    border: 0px solid #000000;
-    background-color: #ffffff;
-    opacity: 0.6;
-    font-weight: bold;
-    color: #000000;
-    position: absolute;
-    top:50%;
-    transform:  translateY(-50%);
-    
-}
-#herader-contact{
-    
-    -webkit-box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
-    box-shadow: -10px 9px 51px -1px rgba(0,0,0,0.75);
-    border-radius: 82px 82px 82px 82px;
-    height: 80px;
-    background-color: #FFF1BC;
-    opacity: 0.9;
-    top:70%;
-    transform:  translateY(-40%);
-    position: absolute;
-
-}
 
 .logo{
     width: 100px;
@@ -65,8 +36,9 @@ div.container-fluid {
 .card-body{
     background-color: #FFF1BC;
     
+    
 }
-#carta{
+#carta:hover {
     -webkit-box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
 box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
@@ -82,26 +54,43 @@ box-shadow: -24px 9px 22px -6px rgba(0,0,0,0.75);
     background-color: #E1FFEE;
     font-style: italic;
 }
-#about{
-    background-color: #A5C9CA;
-    
 
+#carta img{
+	max-width: 100%;
+	border-radius: 10px;
 }
-.carousel-item{
-    /* min-height: auto; */
-  height: 1500px;
+#carta:hover img{
+    transform: scale(1.1);
+    
+   
 }
+.contact{
+    background-color: #152e38b2;
+}
+footer{
+    width: 100%;
 
-#acercade{
-    
-    text-align: justify;
-    color: #2C3333 ;
-    
-    
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#acercade img{
-    border-radius: 82px 82px 82px 82px; 
-    -webkit-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
-    box-shadow: -21px 13px 28px -9px rgba(0,0,0,0.75);
+footer img{
+    border-radius: 22px;
+}
+.logo2{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.footer-menu-container{
+    display: block;
+   
+    
+    margin-bottom: 1rem;
+    padding: 1rem;
+
 }
