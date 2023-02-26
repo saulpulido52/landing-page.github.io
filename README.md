@@ -7,13 +7,17 @@ Queremos ofrecerte promociones y ofertas especiales, por lo que en nuestra pági
 En resumen, nuestra landing page está diseñada para atraer tu apetito y convencerte de que nos visites y pruebes nuestra deliciosa comida. ¡No esperes más y disfruta de una experiencia gastronómica única!
 
 
-<--------------. 1. Navegador .-------------->
+                                    <--------------. 1. Navegador .-------------->
 Contiene el logo del resturante, ademas de las secciones de la misma pagina con un ancla para la redireccion de ubicacion.
-<--------------. 2. Cabecera .-------------->
+
+                                    <--------------. 2. Cabecera .-------------->
 Tenemos un slogan que contiene un carrousel dando una vista a los posibles menus adicionales.
-<--------------. 3. Blog .-------------->
+
+                                    <--------------. 3. Blog .-------------->
 Contiene una serie de cartas en el cual estan los platillos y una breve descripcion de cada uno, en donde se presentan una puntuación.
-<--------------. 4. Comentarios .-------------->
+
+                                     <--------------. 4. Comentarios .-------------->
 Agregando así una serie de comentarios para los clientes a peticion de mejora del restaurante.
-<--------------. 5. Footer .-------------->
+
+                                     <--------------. 5. Footer .-------------->
 Finalizando así, con la información de contacto, enlaces adicionales y Créditos.
